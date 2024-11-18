@@ -1,0 +1,22 @@
+airflow db init
+
+
+airflow db init
+
+
+airflow users create \
+    --username admin \
+    --firstname LUIS \
+    --lastname PEREIRA \
+    --role Admin \
+    --email luis.bnl22@gmail.com \
+    --password toptop
+
+
+
+airflow scheduler
+
+
+airflow webserver -p 8080
+
+http://localhost:8080/
