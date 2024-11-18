@@ -4,13 +4,7 @@ airflow db init
 airflow db init
 
 
-airflow users create \
-    --username admin \
-    --firstname LUIS \
-    --lastname PEREIRA \
-    --role Admin \
-    --email luis.bnl22@gmail.com \
-    --password toptop
+airflow users create --username admin --firstname Peter --lastname Parker --role Admin --email spiderman@superhero.org
 
 
 
@@ -20,3 +14,13 @@ airflow scheduler
 airflow webserver -p 8080
 
 http://localhost:8080/
+
+
+
+
+
+
+
+
+
+Pwd requirements
